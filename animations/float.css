@@ -1,0 +1,19 @@
+@keyframes pfp {
+    0% {
+        top: 1px;
+    }
+    25% {
+        top: -40px;
+    }
+    100% {
+        top: 0.2px;
+    }
+}
+
+.pfp {
+    position: relative;
+    top: auto;
+    animation-name: pfp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
